@@ -20,18 +20,18 @@ input {
 	color: #000;
 	background-color: #95E1D3;
 }
-::-webkit-scrollbar-track {
-  border-radius: 10px;
-  background-color: #fff;
-}
 ::-webkit-scrollbar {
-  width: 17px;
-  background-color: #fff;
+	width: 17px;
+	background-color: transparent;
+}
+::-webkit-scrollbar-track {
+	border-radius: 10px;
+	background-color: transparent;
 }
 ::-webkit-scrollbar-thumb {
-  border-radius: 10px;
-  background-color: #AAA;
-  border: 3px solid #fff;
+	border-radius: 10px;
+	background-color: #AAA;
+	border: 3px solid #fff;
 }
 
 .row {
