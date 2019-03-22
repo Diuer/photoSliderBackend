@@ -10,6 +10,9 @@
 input {
 	padding: 0 10px;
 }
+textarea:disabled{
+	background-color: #fff;
+}
 .btn_add {
 	border: 1px solid #002D42;
 	color: #000;
