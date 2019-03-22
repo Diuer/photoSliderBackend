@@ -34,9 +34,9 @@
 			.append($('<input type="text" placeholder="標題文字" class="title">'))
 			.append($('<textarea placeholder="內容簡述" class="description"></textarea>'))
 
-		$('.area').preappend(input_template.clone())
+		$('.area').append(input_template.clone())
 		$('.btn_add').click(function() {
-			$('.area').append(input_template.clone())
+			$('.area').prepend(input_template.clone())
 		})
 
 		$('.btn_copy').click(function() {
